@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-void matmult(int n, int p, int q, double A[n][p], double B[p][q], double A[n][q]){
+void matmult(int n, int p, int q, double A[n][p], double B[p][q], double C[n][q]){
 
 
     int i,j,k;
